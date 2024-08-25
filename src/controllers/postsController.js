@@ -1,7 +1,6 @@
 const postModel = require("../models/postModel")
 
 const postsController = {
-
   //GET /
   index: (req, res) => {
     const posts = postModel.getAllPosts()
